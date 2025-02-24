@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HORNET MUSIC - Your Discord Music Bot</title>
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Body Styling */
+        body {
+            background-color: #1a1a1a;
+            color: #ffffff;
+            line-height: 1.6;
+        }
+
+        /* Header */
+        header {
+            background-color: #3498db; /* Blue from your bot embeds */
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+        }
+
+        header p {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: #2c3e50;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 1.1em;
+        }
+
+        nav a:hover {
+            color: #00ff00; /* Green from your bot embeds */
+        }
+
+        /* Main Content */
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        section h2 {
+            color: #3498db;
+            font-size: 2em;
+            margin-bottom: 15px;
+        }
+
+        section p, section ul {
+            font-size: 1.1em;
+        }
+
+        section ul {
+            list-style: none;
+        }
+
+        section ul li {
+            margin: 10px 0;
+            padding-left: 20px;
+            position: relative;
+        }
+
+        section ul li:before {
+            content: "🎶";
+            position: absolute;
+            left: 0;
+        }
+
+        /* Button Styling */
+        .invite-btn {
+            display: inline-block;
+            background-color: #00ff00;
+            color: #1a1a1a;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-size: 1.2em;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+        .invite-btn:hover {
+            background-color: #27ae60;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #2c3e50;
+            text-align: center;
+            padding: 15px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer p {
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+   <header>
+    <h1>HORNET MUSIC</h1>
+    <p>Your Ultimate Discord Music Companion</p>
+    <img src="file:///C:/Users/lameta/Pictures/image%20(2).png" alt="HORNET MUSIC Logo" style="max-width: 200px; margin-top: 10px;">
+</header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#features">Features</a>
+        <a href="#commands">Commands</a>
+        <a href="#invite">Invite</a>
+    </nav>
+
+    <div class="container">
+        <section id="about">
+            <h2>About HORNET MUSIC</h2>
+            <p>
+                HORNET MUSIC is a feature-packed Discord bot designed to bring high-quality music to your server. 
+                Whether you're chilling with friends or hosting a party, HORNET MUSIC has you covered with seamless 
+                playback, interactive controls, and more!
+            </p>
+        </section>
+
+        <section id="features">
+            <h2>Features</h2>
+            <ul>
+                <li>Play music from YouTube with ease</li>
+                <li>Interactive button controls for playback</li>
+                <li>Queue management: move, remove, and skip songs</li>
+                <li>Volume control at your fingertips</li>
+                <li>Lyrics support powered by Genius</li>
+            </ul>
+        </section>
+
+        <section id="commands">
+            <h2>Commands</h2>
+            <ul>
+                <li><strong>!j</strong> - Join your voice channel</li>
+                <li><strong>!p &lt;song name/url&gt;</strong> - Play a song</li>
+                <li><strong>!controls</strong> - Open the control panel</li>
+                <li><strong>!lyrics</strong> - Show lyrics for the current song</li>
+                <li><strong>!queue</strong> - View the current queue</li>
+                <li><strong>!move &lt;from&gt; &lt;to&gt;</strong> - Move a song in the queue</li>
+                <li><strong>!remove &lt;index&gt;</strong> - Remove a song from the queue</li>
+                <li><strong>!sk</strong> - Skip the current song</li>
+                <li><strong>!l</strong> - Leave the voice channel</li>
+            </ul>
+        </section>
+
+        <section id="invite">
+            <h2>Invite HORNET MUSIC</h2>
+            <p>
+                Ready to bring the beats to your server? Click below to invite HORNET MUSIC!
+            </p>
+            <a href="https://discord.com/oauth2/authorize?client_id=1338309624360865888&permissions=3164160&integration_type=0&scope=bot" class="invite-btn">Invite Now</a>
+        </section>
+    </div>
+
+    <footer>
+        <p>© Copyright by Blue Hornet | Powered by xAI</p>
+    </footer>
+</body>
+</html>
